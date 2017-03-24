@@ -8,15 +8,15 @@ public class RabbitMetricsPollableSourceProperties {
     /**
      * The RabbitMQ HTTP URI 
      */
-    private String rabbitHttpUri = "https://buck.rmq.cloudamqp.com/api/queues";
+    private String rabbitHttpUri = "";
 
-    private String rabbitUsername = "buzdzklg";
+    private String rabbitUsername = "";
     
-    private String rabbitPassword = "gej1R4Ho0aZdmGL_g77_Fw-eLvolkD-b";
+    private String rabbitPassword = "";
 
-    private String vhostName = "buzdzklg";
+    private String vhostName = "";
     
-    private String queueName = "demo-current.enrich-processor.demo-current";
+    private String queueName = "";
     
 	public String getRabbitHttpUri() {
 		return rabbitHttpUri;
